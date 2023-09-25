@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TiketKereta</string>
+    <string name="nxt">Next</string>
+    <string name="text1">Silahkan Login</string>
+    <string name="text2">Sebelum Memesan Tiket</string>
+    <string name="input1">Username</string>
+    <string name="input2">Password</string>
+    <string name="btlogin">Login</string>
+    <string name="text3">Pesan Tiketmu</string>
+    <string name="text4">Sesuai dengan isi dompetmu</string>
+    <string name="text5">Pilih tanggal keberangkatan</string>
+    <string name="text6">Pilih jam keberangkatan</string>
+    <string name="text7">Pilih kelas kereta</string>
+    <string name="order">Pesan Tiket</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bckgrnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/rumput"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_below="@+id/bckgrnd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-215dp"
+        android:layout_marginEnd="-8dp"
+        android:background="@drawable/rumput"/>
+
+    <ImageView
+        android:id="@+id/kereta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kereta"
+        android:layout_above="@+id/rumput"/>
+
+    <ImageView
+        android:id="@+id/texttitle"
+        android:layout_width="350dp"
+        android:layout_height="167dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/teks"/>
+
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/btnext"
+        android:text="@string/nxt"
+        android:textColor="@color/black"
+        android:contentDescription="next" />
+</RelativeLayout>

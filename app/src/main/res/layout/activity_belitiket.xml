@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".belitiket">
+
+    <ImageView
+        android:id="@+id/bckgrnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="28sp"
+        android:textColor="@color/blueglp"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text4"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/text3"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="16sp"
+        android:textColor="@color/bluetrg"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text5"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="14sp"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/datepick"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="12dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="MM/DD/YYYY"
+        android:inputType="number"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="@string/text6"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputtime"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="00:00"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btntime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputtime"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"
+        android:text="Select Time" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="115dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="@string/text7"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="@string/order"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/kelastiket"
+        android:layout_width="386dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="25dp"/>
+
+</RelativeLayout>

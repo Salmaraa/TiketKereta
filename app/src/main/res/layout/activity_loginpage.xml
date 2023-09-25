@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage">
+
+    <ImageView
+        android:id="@+id/bckgrnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/text1"
+        android:textColor="@color/blueglp"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="@color/bluetrg"/>
+
+    <ImageView
+        android:id="@+id/btlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/backlogin"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uname"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="125dp"
+        android:hint="@string/input1"
+        android:padding="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pw"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="190dp"
+        android:hint="@string/input2"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btlogen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/btlogin"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="14sp"/>
+</RelativeLayout>
